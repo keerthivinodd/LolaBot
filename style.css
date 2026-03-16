@@ -1,0 +1,47 @@
+/* style.css */
+.stApp {
+    background-color: #FFF5F7;
+}
+
+h1 {
+    color: #D63384 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+
+/* Sidebar Styling */
+[data-testid="stSidebar"] {
+    background-color: #FCE4EC;
+    border-right: 2px solid #F8BBD0;
+}
+
+/* Input Box Styling */
+.stTextInput input {
+    border: 2px solid #F8BBD0 !important;
+    border-radius: 10px;
+}
+
+/* Button Styling */
+.stButton>button {
+    background-color: #D63384;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 25px;
+    transition: 0.3s;
+}
+
+.stButton>button:hover {
+    background-color: #AD1457;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* AI Answer Box */
+.answer-box {
+    background-color: white;
+    padding: 20px;
+    border-left: 5px solid #D63384;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
